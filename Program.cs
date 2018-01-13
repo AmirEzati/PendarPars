@@ -25,6 +25,13 @@ namespace FuncAndExtensionMethods
 
             Console.WriteLine("*Total is: "+shoppintCart.TotalPrice());
 
+            var shoppintCart2 = new ShoppingCartI()
+            {
+                Products = data,
+            };
+
+            Console.WriteLine("*Total ShoppingCartI is: " + shoppintCart2.TotalPrice());
+
             Console.ReadKey();
         }
     }

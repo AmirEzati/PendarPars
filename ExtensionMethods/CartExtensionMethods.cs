@@ -20,5 +20,17 @@ namespace FuncAndExtensionMethods.ExtensionMethods
 
             return sum;
         }
+
+        public static double TotalPrice(this IEnumerable<Product> productEnum)
+        {
+            double sum = 0;
+
+            foreach (var item in productEnum)
+            {
+                sum += item.Price;
+            }
+
+            return sum;
+        }
     }
 }

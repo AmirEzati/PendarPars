@@ -46,6 +46,7 @@
     <Compile Include="DAL\ProductRepository.cs" />
     <Compile Include="ExtensionMethods\CartExtensionMethods.cs" />
     <Compile Include="Model\Product.cs" />
+    <Compile Include="Model\ShoppingCart -with Interface.cs" />
     <Compile Include="Model\ShoppingCart.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
