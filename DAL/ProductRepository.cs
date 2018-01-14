@@ -13,9 +13,9 @@ namespace FuncAndExtensionMethods.DAL
         {
             return new List<Product>()
             {
-                 new Product() { Name="Vice" , Price=15000},
-                 new Product() { Name="Pant" , Price=10000},
-                 new Product() { Name="Mobile" , Price=25000},
+                 new Product() { Name="Vice", Category="Barghi" , Price=15000},
+                 new Product() { Name="Pant", Category="Barghi" , Price=10000},
+                 new Product() { Name="Mobile", Category="Pooshak" , Price=900},
             };
         }
     }
