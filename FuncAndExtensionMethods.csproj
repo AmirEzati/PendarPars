@@ -43,8 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAL\Auction\ItemsRepository.cs" />
+    <Compile Include="DAL\Auction\MemberRepository.cs" />
     <Compile Include="DAL\ProductRepository.cs" />
     <Compile Include="ExtensionMethods\CartExtensionMethods.cs" />
+    <Compile Include="Model\Auction\Base.cs" />
+    <Compile Include="Model\Auction\Bid.cs" />
+    <Compile Include="Model\Auction\Item.cs" />
+    <Compile Include="Model\Auction\Member.cs" />
     <Compile Include="Model\Product.cs" />
     <Compile Include="Model\ShoppingCart -with Interface.cs" />
     <Compile Include="Model\ShoppingCart.cs" />
